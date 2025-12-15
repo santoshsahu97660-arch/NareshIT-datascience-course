@@ -25,7 +25,7 @@ plt.title('Salary of employee based on experience')
 plt.xlabel('Experience')
 plt.ylabel('Salary')
 plt.show()
-``````````````  
+  
 c_inter =regressor.intercept_
 print(f'Intercept: {regressor.intercept_}')
 
