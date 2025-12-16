@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
  
-dataset = pd.read_csv(r"C:\Users\santo\OneDrive\Desktop\Data science\Dec2025\Machine Learning\Salary_Data.csv")
+dataset = pd.read_csv(r'C:\Users\Admin\Desktop\A3MAX\2. A3MAX BATCHES\Agentic AI, Gen AI, FSDS_ 1\4. Nov\10th, 11th, 12th - SLR\SIMPLE LINEAR REGRESSION\Salary_Data.csv')
+
 x = dataset.iloc[:,:-1]
 y = dataset.iloc[:, -1]
 
@@ -25,7 +26,9 @@ plt.title('Salary of employee based on experience')
 plt.xlabel('Experience')
 plt.ylabel('Salary')
 plt.show()
-  
+
+# validataion or future data 
+
 c_inter =regressor.intercept_
 print(f'Intercept: {regressor.intercept_}')
 
@@ -107,43 +110,12 @@ print(variance_testing)
 
 # ml devloper  
 
-variation(dataset['Salary'])
-#standard error
 
-#SSR
-y_mean = np.mean(y)
-SSR = np.sum((y_pred-y_mean)**2)
-print(SSR)
 
-#SSE
-y = y[0:6]
-SSE = np.sum((y-y_pred)**2)
-print(SSE)
 
-#SST
 
-mean_total = np.mean(dataset.values)
-SST = np,sum((dataset.values-mean_total)**2)
-print(SST)
 
-#r2
-r_square = 1 -SSR/SST
-print(r_square)
 
-bias = regressor.score(x_train,y_train)
-print(bias)
-
-variance = regressor.score(x_test, y_test)
-print(variance)
-
-import pickle
-
-filename = 'linear_regression_model.pkl'
-
-with open(filename, 'wb') as file:
-    pickle.dump(regressor, file)
-
-print("Model has been pickled and saved as linear_regression_model.pkl")
 
 
 
