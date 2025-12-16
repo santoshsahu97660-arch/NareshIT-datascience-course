@@ -107,12 +107,43 @@ print(variance_testing)
 
 # ml devloper  
 
+variation(dataset['Salary'])
+#standard error
 
+#SSR
+y_mean = np.mean(y)
+SSR = np.sum((y_pred-y_mean)**2)
+print(SSR)
 
+#SSE
+y = y[0:6]
+SSE = np.sum((y-y_pred)**2)
+print(SSE)
 
+#SST
 
+mean_total = np.mean(dataset.values)
+SST = np,sum((dataset.values-mean_total)**2)
+print(SST)
 
+#r2
+r_square = 1 -SSR/SST
+print(r_square)
 
+bias = regressor.score(x_train,y_train)
+print(bias)
+
+variance = regressor.score(x_test, y_test)
+print(variance)
+
+import pickle
+
+filename = 'linear_regression_model.pkl'
+
+with open(filename, 'wb') as file:
+    pickle.dump(regressor, file)
+
+print("Model has been pickled and saved as linear_regression_model.pkl ✅")
 
 
 
