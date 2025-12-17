@@ -19,7 +19,6 @@ from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(xtrain, ytrain)
 
-#Predicting
 pred = regressor.predict(xtest)
  
 plt.scatter(xtrain, ytrain, color= 'red')
