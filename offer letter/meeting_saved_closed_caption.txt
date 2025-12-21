@@ -1,0 +1,2244 @@
+[prakash senapati] 10:14:44
+So, all those things. So what I want to do… so, in the meantime, I have a few things to… scan the QR code for not the old learner, for the new learner, please scan this QR code. And let me know once you're done.
+
+[prakash senapati] 10:14:55
+Not for my ex-students, the new students, please scan this QR code.
+
+[prakash senapati] 10:15:01
+ex-students, I mean, whoever study under me, so please do not scan it, because I can share the Google Classroom, but for rest of them.
+
+[prakash senapati] 10:15:09
+Please, uh, okay, scan it and update me once you're done.
+
+[prakash senapati] 10:15:14
+Okay, tip completed. Yes. Yes.
+
+[prakash senapati] 10:15:19
+Yes, thank you, Arif joined. Okay. Yep.
+
+[prakash senapati] 10:15:24
+Please open Google Lens on your mobile, scan the QR code.
+
+[prakash senapati] 10:15:28
+And join the official WhatsApp group, you will get all the content from us and all those things, guys.
+
+[prakash senapati] 10:15:34
+And let me know once you've covered. Thank you.
+
+[prakash senapati] 10:15:41
+done this? Great. So, as I told you one more time, as I told you one more time.
+
+[prakash senapati] 10:15:47
+So look at this. So, we are using this model, GPT from OpenAI, Cloud from Entropic, Gemini from Google DeepMind.
+
+[prakash senapati] 10:15:56
+Quent from Alibaba, deep sick from deep sick, Lama from Meta, Mistral and Mixtral from Mistral, Nemotron from Nvidia, 5 from Microsoft, Command from Kohira, and Grok from XI, okay? So these are the tons of LLMs, and you see the new LLM model has created, uh, like, publicity and a lot of, lot of new, new model you're about to.
+
+[prakash senapati] 10:16:19
+integrate in upcoming days, guys. Okay, next one. So, minimize, I hope everyone scanned.
+
+[prakash senapati] 10:16:25
+Everyone scanned? Okay.
+
+[prakash senapati] 10:16:38
+Good. Alright, so minimize, and then, first step, I'll open this now.
+
+[prakash senapati] 10:16:45
+And what is… just 6 point we'll cover today, guys. So, I introduced agenda for today's workshop.
+
+[prakash senapati] 10:16:51
+We'll discuss, like, Google DeepMind, Intro to Gemini 3, Explore Gemini 3.
+
+[prakash senapati] 10:16:58
+And Gemini 3 LLM. And here we explode to LLM, and then, using Google Colab, we'll build text gen model.
+
+[prakash senapati] 10:17:07
+tech stream is model, and we create multi-model using Python and Streamlit. Pretty clear. So this is all those things we have.
+
+[prakash senapati] 10:17:14
+Let's start now, and if you open this one.
+
+[prakash senapati] 10:17:18
+So, let's go back to… Here, I'm saying… Google.com. So, when I log into the google.com, you can write as Google DeepMind.
+
+[prakash senapati] 10:17:29
+So when you Google DeepMind, let's open and… I can say that the first one I'm going to talk about this part here.
+
+[prakash senapati] 10:17:39
+Let's… what is Google DeepMind? Google DeepMind… DeepMind is the.
+
+[prakash senapati] 10:17:50
+Hmm. If you have Satya kunal.
+
+[prakash senapati] 10:17:55
+We'll discuss later after the class, alright? I mean, after the workshop.
+
+[prakash senapati] 10:18:00
+Yes. So, is the DeepMind, is the… Research company.
+
+[prakash senapati] 10:18:06
+For Google, okay? So this is the research company for Google. Let me direct… let me direct to the official website.
+
+[prakash senapati] 10:18:15
+Google DeepMind, read it. Deepmind is a Google DeepMind, or simply DeepMind, it's a British.
+
+[prakash senapati] 10:18:21
+American research company, what is the duration of the workshop?
+
+[prakash senapati] 10:18:26
+What do you, Shivani? duration of the workshop, I don't know, will take, like, one and a half hour.
+
+[prakash senapati] 10:18:32
+Okay, Shivani. Okay. So, uh, let's… So, right-click and open link new tab, so when you open it.
+
+[prakash senapati] 10:18:43
+So I have a scan keyword. Okay, no problem, very good.
+
+[prakash senapati] 10:18:46
+So, do you see Gemini 3 has launched or not? When you open a Google DeepMind.
+
+[prakash senapati] 10:18:52
+When you open a Google DeepMind websites, so Gemini 3 has launched our most intelligent AI model that brings any idea to life.
+
+[prakash senapati] 10:19:03
+So, I will explore what exactly this Gemini 3 is important, what it can do.
+
+[prakash senapati] 10:19:10
+And it's same things Gemini 1, 2, 3, let me tell you. Windows 9, Windows 10.
+
+[prakash senapati] 10:19:17
+Windows 11 operating systems. Do you see any changes, guys? I mean to say, in Gemini, in Windows 10, maybe more look.
+
+[prakash senapati] 10:19:27
+graphics, I mean, clarity, and my graphics versions of all the icons, same things. Gemini 3 has long context windows.
+
+[prakash senapati] 10:19:37
+It will increase the token limit. Lot of things it can be done, guys, alright? So this is the new model has launched by Gemini 3. If you go to the model sections, now if you go to the model sections, it's a Gemini model, Nano Banana model, Gemma model.
+
+[prakash senapati] 10:19:53
+and generative models, and Gemini ecosystem. So these things has been created.
+
+[prakash senapati] 10:19:59
+Sir, it's the first time on workshop, can I join? Yeah, yeah, umprakash, you can join, no problem.
+
+[prakash senapati] 10:20:05
+So anybody can join, so my graduations be farmer, but every time, last time also joined, every workshop you joined, only you asking questions, but no action. So, can you please kind wait, and I will talk to you at the class?
+
+[prakash senapati] 10:20:20
+But, like, are you clear? I mean, you have the guy join every workshops and keep asking questions, but no executions.
+
+[prakash senapati] 10:20:30
+So, can you please wait for some time? is the definition for LLM, and it's a large language model, Jayanth, because internet is very large, right?
+
+[prakash senapati] 10:20:40
+So when we fetch the data from internet and build model, that's why it is called Large Language Model.
+
+[prakash senapati] 10:20:47
+Understood, Jayan Tagrawal. And why do we use it? Have you used ChatGPT?
+
+[prakash senapati] 10:20:53
+Can you tell me ChatGPT why we use 4?
+
+[prakash senapati] 10:20:57
+ChatGPT we can use. to get solution, generate code, problem solving, exactly, okay?
+
+[prakash senapati] 10:21:04
+how ChatGPT, ChatGPT generates content, get the content from internet.
+
+[prakash senapati] 10:21:09
+Right? So, okay. So, let me tell you all the questions we'll discuss later. Let me tell you to the people.
+
+[prakash senapati] 10:21:16
+However, any questions. If you have… Any questions? Can you please.
+
+[prakash senapati] 10:21:24
+Write down somewhere, and keep aside. Keep aside, just focus on the class, because I have more practical today.
+
+[prakash senapati] 10:21:33
+more projects I want to cover. I'll just focus the class.
+
+[prakash senapati] 10:21:37
+And after the workshop and after the boot camp, at the end of the boot camp.
+
+[prakash senapati] 10:21:41
+At the end of the boot camp. I will talk to you for all the questions.
+
+[prakash senapati] 10:21:47
+I will talk to you. all the questions. Now, who can audiences for this workshop?
+
+[prakash senapati] 10:21:54
+the audiences… are pressures.
+
+[prakash senapati] 10:21:58
+experienced career gap students, anyone, whoever wants to learn.
+
+[prakash senapati] 10:22:05
+wants to learn. FSDS, Full Stack Data Science, GenAI, and… So, I would request.
+
+[prakash senapati] 10:22:16
+I would request you. I'd request to please.
+
+[prakash senapati] 10:22:22
+Questions later. Then work first.
+
+[prakash senapati] 10:22:27
+Agree with me, everyone? Okay, team, let's continue now.
+
+[prakash senapati] 10:22:32
+Yes, Tim? Okay, great.
+
+[prakash senapati] 10:22:38
+Sorry. Now, here we go.
+
+[prakash senapati] 10:22:45
+Okay, so Google DeepMind is the research company from the Google.
+
+[prakash senapati] 10:22:49
+So, if you notice this, go to the model sections, you… can you see the model?
+
+[prakash senapati] 10:22:54
+So, Gemini model has 3 tree flash. 2.5 flashlight. So… So the first one, we can call this.
+
+[prakash senapati] 10:23:03
+We have Gemini model, like, what are the models, guys? If you notice, there's 3 Pro, 3 flash.
+
+[prakash senapati] 10:23:10
+So, 3 Pro. 3 flux. And the existing model was? Existing model was. What is model? It's a big subject, I will talk to you.
+
+[prakash senapati] 10:23:21
+Uh, existing model was 2.5 flashlight, 2.5. slash light, okay? And also, if you go back to the nano banana, so I already had a workshop on nano banana, I will share you the link, you can download from there, okay?
+
+[prakash senapati] 10:23:37
+GEMA model, GEMA3, GEMA3, and embedding Gemma. So, this is lightweight, state-of-the-art model. Generative model called ImageGen.
+
+[prakash senapati] 10:23:46
+When you try to log into the image gel, it will create an image gen model.
+
+[prakash senapati] 10:23:51
+Okay, text-to-image model created by this, uh, okay? And then here.
+
+[prakash senapati] 10:23:58
+You will talk about just back again, go back to the model sections. So you can see a bunch of models here, guys.
+
+[prakash senapati] 10:24:06
+clear team, so that's what, if you refer to the website.
+
+[prakash senapati] 10:24:09
+This is my first class. I have a few questions related in my current work. How can I connect personally for 10 minutes? Okay, ping me, ping in the LinkedIn, I will discuss. So please, guys, do not, uh…
+
+[prakash senapati] 10:24:23
+I mean, when I explain when you guys keep asking questions, if I ignore your questions, you guys got angry. So I'm saying we will discuss, please, later, okay?
+
+[prakash senapati] 10:24:34
+So just allow me some time, and we covered all those things. Okay, team?
+
+[prakash senapati] 10:24:39
+All right. So here, if you see this. model sections. So, this is what Gemma model has launched, and ImageGen, this model will create image.
+
+[prakash senapati] 10:24:51
+generations model, VO model, VO means text-to-video, a state-of-the-art video generations model.
+
+[prakash senapati] 10:24:57
+So we have video generations means what, guys? It's very simple, text.
+
+[prakash senapati] 10:25:03
+When you enter, the video will generate. The video will generate, guys. That's called VO model.
+
+[prakash senapati] 10:25:10
+Understood, that's called VO model. When you enter a text, the audio will generate. That's called audio model, okay, which is called Lydia.
+
+[prakash senapati] 10:25:21
+L-Y-R-I-A. So this is all those things you have image general idea.
+
+[prakash senapati] 10:25:25
+You have all the models case. So, you can explore all those things, but let's get back to the developer side, being a LLM developer.
+
+[prakash senapati] 10:25:34
+Bingy AI developer, what are you gonna work? Let's go to… see, you have Gini 3 AlphaGo, there are more research parties going on on this one, as today we focus on.
+
+[prakash senapati] 10:25:46
+Gemini 3 model. So first, let's work with. Go to the Model section.
+
+[prakash senapati] 10:25:52
+And here, let's open a… Germany now, let's open this.
+
+[prakash senapati] 10:25:58
+And here… Google DeepMind.
+
+[prakash senapati] 10:26:03
+So when you go back to this one, the first one, Gemini 3.
+
+[prakash senapati] 10:26:07
+try in Google Studio, so I can click that.
+
+[prakash senapati] 10:26:14
+I can click that. So when I click… I will tell you the first one.
+
+[prakash senapati] 10:26:19
+Nano Banana Pro, it's a paid model, Gemini 3 Pro.
+
+[prakash senapati] 10:26:23
+New Gemini 3 Flash preview. So, what I'm gonna do now, I'll go back to click it here.
+
+[prakash senapati] 10:26:30
+And when you click, let's go to the build.
+
+[prakash senapati] 10:26:34
+And… so I can say hi, how are you?
+
+[prakash senapati] 10:26:38
+Let's enter, so just… Uh, maybe you can… You can build, it can build any code from here.
+
+[prakash senapati] 10:26:46
+If I tell you to… create a snake game, it will… it will do that.
+
+[prakash senapati] 10:26:53
+create a snake game app. It will do that, guys, alright?
+
+[prakash senapati] 10:26:58
+So, just wait for some time, just wait for some time, it will do that.
+
+[prakash senapati] 10:27:05
+Still, the code is processing. Okay, it will build.
+
+[prakash senapati] 10:27:11
+Lumina AI Studio. So today, we'll code as well. I will tell you how to.
+
+[prakash senapati] 10:27:16
+do all those things. In the meantime, let's processing going on, let's process.
+
+[prakash senapati] 10:27:22
+And… okay.
+
+[prakash senapati] 10:27:29
+Just one second. Still, it's processing going on.
+
+[prakash senapati] 10:27:34
+Like I just ask, actually, let's… Get back to that.
+
+[prakash senapati] 10:27:42
+So here, I'll stop it. And then…
+
+[prakash senapati] 10:27:50
+Cancel. Just one moment. So rather than this one… I'll go to… Yes, guys. So I'll go to AI Studio, Google Studio now.
+
+[prakash senapati] 10:28:03
+And from the studio. We can go back to… Pro.
+
+[prakash senapati] 10:28:11
+And go to the home now. Okay, so if you go to the home… Just one moment… I'll try in Germany. You can also try that.
+
+[prakash senapati] 10:28:22
+So we can ask to Gemini 3. In the Gemini 3, let's tell you, I have won documents, guys.
+
+[prakash senapati] 10:28:28
+Let me open one documents. So, do you see, whenever we go to any hospital, the doctor can provide some documentations or not?
+
+[prakash senapati] 10:28:37
+And trust me, the handwriting was not, uh, you know, accurate. So what I'm trying to say this, this is what my documents I have.
+
+[prakash senapati] 10:28:45
+I just have some prescriptions of. any doctor written documents, and we can't understand being the right writings would be, uh.
+
+[prakash senapati] 10:28:56
+Very good, so that's what we can't understand. So here, what we're gonna do… I'm going to apply that.
+
+[prakash senapati] 10:29:03
+plus here, and then upload file. When I upload file, just go to desktop.
+
+[prakash senapati] 10:29:10
+Just go to desktop, and… I'll upload this prescriptions written by any doc.
+
+[prakash senapati] 10:29:17
+So now, when I… Can you summarize this?
+
+[prakash senapati] 10:29:24
+Prescriptions…
+
+[prakash senapati] 10:29:29
+Okay, now when you try to… so the good part is Gemini 3 has… Gemini 2 has thinking model, but now it has fast model, has activated.
+
+[prakash senapati] 10:29:40
+Yes case. Yes.
+
+[prakash senapati] 10:29:46
+Okay, have done the same. Very good. Raj, well, you done? Fantastic. No, you're done. Let's do it.
+
+[prakash senapati] 10:29:54
+Good, so this is in company you've done? In organizations? Yes, thanks.
+
+[prakash senapati] 10:30:00
+Good. Uh, it is saying… Okay, now I can upload this one.
+
+[prakash senapati] 10:30:07
+Upload file, and here. And I can say that, read the file.
+
+[prakash senapati] 10:30:13
+Now, open. So let's call read the file. Personal. Okay, good.
+
+[prakash senapati] 10:30:20
+appears to be medical prescriptions. Do you see it is read the document or not? Condition and observations.
+
+[prakash senapati] 10:30:28
+Medications, so it's done. So, who done this, guys? My question to you, who done this?
+
+[prakash senapati] 10:30:33
+The Gemini model has done this, right? But now.
+
+[prakash senapati] 10:30:37
+Can I bring a developer? Can I do my own?
+
+[prakash senapati] 10:30:40
+Can I do my own? Yes. So, but if you notice this.
+
+[prakash senapati] 10:30:45
+There's a Gemini 3, Gemini 2 has which model? Thinking model?
+
+[prakash senapati] 10:30:49
+But fast model has created by Gemini 2. So I can write that here.
+
+[prakash senapati] 10:30:55
+Gemini, 2, and… Germany 2.5 has. When you write when user.
+
+[prakash senapati] 10:31:05
+Write any text. to the prompt, what happens? The model started thinking.
+
+[prakash senapati] 10:31:11
+The model started thinking, isn't it? So when I give you any task, you will think you are elements your brain thinks, but the same thing, Gemini 3.
+
+[prakash senapati] 10:31:20
+has launched a. fast model, guys. Okay, which is advanced thinking, which is… advanced thinking, and a little fast thinking, okay? So that's what.
+
+[prakash senapati] 10:31:33
+So the next one, this is one file we have. So that means this we created by… what, guys?
+
+[prakash senapati] 10:31:39
+This we have been developed by. Jiminy AI model has created, and call it. Now, I'll upload another.
+
+[prakash senapati] 10:31:48
+Prescriptions, let's try that. And this is another prescriptions.
+
+[prakash senapati] 10:31:51
+And now I can say, this prescription read-in. Which language these prescriptions read in local language, let's called Telugu language.
+
+[prakash senapati] 10:32:02
+And now, let me go back to here. And I can say that… Read this.
+
+[prakash senapati] 10:32:13
+Prescription, okay. And… suggest.
+
+[prakash senapati] 10:32:17
+And fast, let's open. So right now, whoever done by… this code, this, I upload my file document from the document.
+
+[prakash senapati] 10:32:27
+So, it analyzed Gemini 3 has research. And it give… this medication has given by some.
+
+[prakash senapati] 10:32:37
+And okay, these patients, we have, like, medications below what APIs and provided filled.
+
+[prakash senapati] 10:32:44
+So, prescriptions for handwritten prescriptions for. Uh, okay, blood pressure, and for these medications that's given to them, guys, okay, so that means.
+
+[prakash senapati] 10:32:56
+OCR kind of things has done by. Gemini. Now, this has been developed by anyone, so if you go back to any YouTubes, they can explain these things, right? So, advice also given.
+
+[prakash senapati] 10:33:08
+So something, even though if any medication is given to you, if you cannot understand, you can upload the file and talk to the Gemini, and it can give you a detailed insight and how it… so that's what.
+
+[prakash senapati] 10:33:20
+AI can implement in AlphaGo domain side, robotics, lot of sectors, guys. If you go back to the research.
+
+[prakash senapati] 10:33:30
+In the research. everywhere, latest news, they've been implemented in the agent will integration and agricultural.
+
+[prakash senapati] 10:33:37
+3D world. I mean, even though biopharma, a lot of things it has been implemented, right? So now.
+
+[prakash senapati] 10:33:46
+We're going to build practical now. So, what is things we discussed today, guys?
+
+[prakash senapati] 10:33:52
+So we'll discuss today these things. The first one, we will talk about.
+
+[prakash senapati] 10:33:58
+What is introductions to Google DeepMind? And introductions to Gemini 3, and we simply explore, because we've done a lot of workshops before.
+
+[prakash senapati] 10:34:08
+So, we have been done this, because explore some documents, and it.
+
+[prakash senapati] 10:34:15
+read, and given. The detailed summary of you, given… detailed summary of it.
+
+[prakash senapati] 10:34:21
+So, same things, how a developer can do it.
+
+[prakash senapati] 10:34:24
+Yes, that's what we're gonna do now. Okay? So… Let's do, everyone, work with me. The first step.
+
+[prakash senapati] 10:34:32
+Whatever projects are explored to you. by Gemini 3.
+
+[prakash senapati] 10:34:37
+Let's explore in a code now. Okay, let's code with me.
+
+[prakash senapati] 10:34:41
+Let's Code With Me team. The first step, the first step.
+
+[prakash senapati] 10:34:48
+Open Google and create a. Gemini API key. So, how do you API key creator? So, let's go back and… Get back to this file.
+
+[prakash senapati] 10:35:01
+Okay, just go to Google, and… So you can directly write… Gemini API key. Please write Gemini API key.
+
+[prakash senapati] 10:35:12
+So, Google Gemini API key, you can get this API key.
+
+[prakash senapati] 10:35:17
+Google AI Studio. Do you see your Get API key, everyone?
+
+[prakash senapati] 10:35:21
+So anybody's working, anybody's working.
+
+[prakash senapati] 10:35:28
+Anyone who's working? What is difference between LLM and Lang Smith?
+
+[prakash senapati] 10:35:36
+Langsmith can monitor the LLM guys. Understood.
+
+[prakash senapati] 10:35:42
+LLM is different, Lang Smith is a framework which can monitor, okay, Shay Kamul.
+
+[prakash senapati] 10:35:48
+All right. Okay, let's do that. So, everyone go to Google.
+
+[prakash senapati] 10:35:54
+Everyone go to Google and type. I mean, Jiminy, EPA key… After ClickGemini API key.
+
+[prakash senapati] 10:36:03
+create Gemini API key, and after create Gemini API key.
+
+[prakash senapati] 10:36:09
+and copy that API key, and keep it with you. I will tell you.
+
+[prakash senapati] 10:36:12
+keep it with you. Have you done? Please let me know.
+
+[prakash senapati] 10:36:16
+Please let me know once you complete it. Okay, great. Done.
+
+[prakash senapati] 10:36:25
+Lang Smith is LLM Ops. Okay, Abdul, good.
+
+[prakash senapati] 10:36:30
+Okay, so we already have API key? Okay, we have… we have created an API key, great.
+
+[prakash senapati] 10:36:37
+Okay. So, after we create an API key, so the… Next one.
+
+[prakash senapati] 10:36:44
+Done. So after you create the API key, I want to go here.
+
+[prakash senapati] 10:36:49
+And let's create it. go to Google, and write.
+
+[prakash senapati] 10:36:55
+Google Collab. And right, Google Collab. Sir, how to create it. Abhishek, when I'm speaking, where are you listening, buddy?
+
+[prakash senapati] 10:37:06
+Just go to Google. Abhishek, go to Google.
+
+[prakash senapati] 10:37:11
+And now, right, Gemini API key. Jiminy, EPA key.
+
+[prakash senapati] 10:37:15
+Get to your Gemini API key. And then get API key.
+
+[prakash senapati] 10:37:21
+get the APA key. After get APA key. Then do you see a create API key?
+
+[prakash senapati] 10:37:29
+And you can create any projects, my first projects or project, select it.
+
+[prakash senapati] 10:37:35
+And you create API key. I already created. For me, not required, I wanted to create this.
+
+[prakash senapati] 10:37:41
+Okay, yep. So, everyone has created the API key. After create.
+
+[prakash senapati] 10:37:49
+Please write Google Colab. Just go to Google, and Google Colab.
+
+[prakash senapati] 10:37:54
+Create the first one, Google collab. And now, I'm going to select it.
+
+[prakash senapati] 10:37:59
+I'm going to select it. When you select it.
+
+[prakash senapati] 10:38:02
+Do you see new notebook? Let's click on the… Let's click on the new notebook.
+
+[prakash senapati] 10:38:17
+Click on the new notebook. Done team. Okay, great.
+
+[prakash senapati] 10:38:23
+So, let me increase… So let's close it.
+
+[prakash senapati] 10:38:29
+So everyone has created like this. Okay, now I'm gonna call this… Gemini 3.
+
+[prakash senapati] 10:38:39
+boot camp. LLM.
+
+[prakash senapati] 10:38:52
+Bootcamp, right? So let's try this.
+
+[prakash senapati] 10:38:58
+Everyone is get it. Yes, done.
+
+[prakash senapati] 10:39:02
+Now, what I'm going to do now, I'm going to create a… To… to get my Gemini 3 model.
+
+[prakash senapati] 10:39:11
+I want to pip install Q. And you… Google, and then we have… Google… Generative AI.
+
+[prakash senapati] 10:39:24
+Google generative… look at the spelling here. Look at the spelling here, pip install.
+
+[prakash senapati] 10:39:30
+Okay. Q means quit, U for update, Google. Generative AI and install. Let's install it, everyone.
+
+[prakash senapati] 10:39:43
+And let's install everyone. And… in the meantime, I will get my API key.
+
+[prakash senapati] 10:39:52
+In the meantime… In the meantime, I'll get my PA key, just one second.
+
+[prakash senapati] 10:40:00
+I go back to my… file here. Go back to my file. A bunch of API key list.
+
+[prakash senapati] 10:40:07
+So, let's… where is… Okay…
+
+[prakash senapati] 10:40:16
+this one. I'm going to… Copy this.
+
+[prakash senapati] 10:40:21
+and close it. And minimize. Okay.
+
+[prakash senapati] 10:40:26
+So everyone install, guys? And then code, code.
+
+[prakash senapati] 10:40:30
+So let me know after you installed.
+
+[prakash senapati] 10:40:37
+So what I'm gonna do now… Import OS, OS dot.
+
+[prakash senapati] 10:40:44
+And we don't meant, okay? And I'm going to… Pause the… Gemini API.
+
+[prakash senapati] 10:40:56
+Okay, okay? So, I get my API key here, and execute.
+
+[prakash senapati] 10:41:03
+Once you install, no need to do for a second time, so… Yes, done.
+
+[prakash senapati] 10:41:09
+Okay, guys, are you working, everyone? Yes. So let me know if you have any question.
+
+[prakash senapati] 10:41:16
+Okay, done. After done, I want to write a… yes, yes.
+
+[prakash senapati] 10:41:22
+So after done, I want to write as import.
+
+[prakash senapati] 10:41:28
+import path library, because. import. I want to find out what would be the.
+
+[prakash senapati] 10:41:37
+list of the model here. Import… um… google dot… generative AI as… Google.generative AI, G-N-E-R-A-T-I-V-E-N-A, right?
+
+[prakash senapati] 10:41:54
+Now, I want to display. import code.
+
+[prakash senapati] 10:42:04
+Sorry. So I don't want to display… the code here. So, from… IPython.
+
+[prakash senapati] 10:42:14
+Display the new port. So, markdown… MDS not required. Okay.
+
+[prakash senapati] 10:42:22
+So here we do this. I want to know the… what would be the list of the model we have.
+
+[prakash senapati] 10:42:28
+So, I create a function to find. a tool, defined tool… Markdown function.
+
+[prakash senapati] 10:42:39
+And I'll pass a text. Because first, I want to build a text-based model.
+
+[prakash senapati] 10:42:43
+So, I'm gonna create a text.replace. I want to find out the list of the model.
+
+[prakash senapati] 10:42:51
+Okay, which is available. Uh, which is given by… star, which is given by.
+
+[prakash senapati] 10:42:58
+Gemini, guys, alright? And… Written here, and marked down.
+
+[prakash senapati] 10:43:07
+Textrap dependent, no. I don't think so, text wrap dependent.
+
+[prakash senapati] 10:43:15
+I want to call as… Indent, okay.
+
+[prakash senapati] 10:43:21
+And from the text. Prefix, no.
+
+[prakash senapati] 10:43:27
+So here, I'm gonna call as… Let's call that predictions.
+
+[prakash senapati] 10:43:34
+Predicted, predict… equals to… okay, lambda… Yeah, this… this has… Lambda, and… True. So, let's try.
+
+[prakash senapati] 10:43:49
+So here, we've been done this written markdown. And check… Do you have any error here, and I'm going to… Google all supported for packages.
+
+[prakash senapati] 10:44:01
+No longer will be… please switch to google.genai. Okay. At Gene, we mentioned.
+
+[prakash senapati] 10:44:12
+That's fine. I want to know… okay, guys, let me copy.
+
+[prakash senapati] 10:44:16
+And… share it. Everyone.
+
+[prakash senapati] 10:44:21
+I post in the… chart, can you check this, guys?
+
+[prakash senapati] 10:44:25
+And please… Do that. And what I'm going to do now here… So here, I'm gonna say for… I want to know the list of the model.
+
+[prakash senapati] 10:44:37
+Uh, for model in Gen A, show me the list of the models.
+
+[prakash senapati] 10:44:42
+So when I click, awesome, so I got my… Copy as well, Sridhar, just one second.
+
+[prakash senapati] 10:44:50
+Okay, guys, the session is going live. I will share the link.
+
+[prakash senapati] 10:44:55
+So, you can watch it. Just get back to the code.
+
+[prakash senapati] 10:45:00
+Okay, now… Let me open the live session, which is… where is it? The live… Okay, this is the live link. Let me copy that.
+
+[prakash senapati] 10:45:13
+And here, share it. Type, man, type Sheikh Amul.
+
+[prakash senapati] 10:45:21
+Why you can't type?
+
+[prakash senapati] 10:45:25
+If not, then after the workshop, you can do that.
+
+[prakash senapati] 10:45:28
+Okay. Alright, so here, let's get… So, when you try this, look at the code.
+
+[prakash senapati] 10:45:39
+I will repeat again, the first thing is, the first thing is.
+
+[prakash senapati] 10:45:44
+Let's do that.
+
+[prakash senapati] 10:45:50
+So pip install queue quit Google generated VI model we've been installed.
+
+[prakash senapati] 10:45:55
+And everyone get to your EPA key, you got your EPA key, guys. Once you got to your API key, you execute the code.
+
+[prakash senapati] 10:46:03
+And I write this code… 2, this code is, I found from Google model itself.
+
+[prakash senapati] 10:46:10
+To find the… to find the. List of the model. So, I shared this code, everyone.
+
+[prakash senapati] 10:46:16
+So I shared the code. So when you try printm.
+
+[prakash senapati] 10:46:25
+Just one second… So, print M.
+
+[prakash senapati] 10:46:30
+Guys, please search this. When you print M. Uh, I think… This is every model with parameters I got, interview questions, what would be the model parameters?
+
+[prakash senapati] 10:46:45
+Let copy. Let's copy.
+
+[prakash senapati] 10:46:51
+Guys, one second. This is a very important session.
+
+[prakash senapati] 10:46:54
+experience, guys, for you also. Because if somebody asks.
+
+[prakash senapati] 10:46:58
+What would be the model parameters? Ctrl G, I will tell you. Look at that, these are the model parameters.
+
+[prakash senapati] 10:47:05
+2.5 flash, model ID version, display name, descriptions, input token limit.
+
+[prakash senapati] 10:47:13
+And supported generations model we have, okay? So now, Tim, are you done?
+
+[prakash senapati] 10:47:19
+First one, this part is completed, please answer me. This part is completed.
+
+[prakash senapati] 10:47:26
+Okay, good. Good. And this part also completed.
+
+[prakash senapati] 10:47:33
+So, path library. Okay, let me copy.
+
+[prakash senapati] 10:47:40
+Yes, APA command as well. This is small things, you can't do it, what can I see?
+
+[prakash senapati] 10:47:49
+Can you copy API command? Import-wise, you can't type.
+
+[prakash senapati] 10:47:54
+Okay, I can copy that. Okay, Nilish 1.0 instead of yes, because now you can change that. You can change that.
+
+[prakash senapati] 10:48:06
+Okay, everyone. Okay, I copy him Ansu, please do that.
+
+[prakash senapati] 10:48:11
+Okay, team. Response may vary, we'll see that. But here.
+
+[prakash senapati] 10:48:16
+The code looks so big, because Gen AI 3 I want to search.
+
+[prakash senapati] 10:48:21
+Can you check, did you got… yeah. Do you see model VO 3.0? 3 model has get it, but now.
+
+[prakash senapati] 10:48:29
+What I'm trying to… right as…
+
+[prakash senapati] 10:48:36
+M in… Okay.
+
+[prakash senapati] 10:48:40
+GenAI dot… list of models.
+
+[prakash senapati] 10:48:44
+I want to find out list of models. And I don't want to… Display the parameters here.
+
+[prakash senapati] 10:48:51
+Do you see I got the parameters, base model, where versions, display name.
+
+[prakash senapati] 10:48:57
+2.5, all those things we got. Just one second.
+
+[prakash senapati] 10:49:06
+Okay. So you have find this, but I don't want these parameters.
+
+[prakash senapati] 10:49:11
+So what I'm gonna do now, here… Okay, so we're not able to copy. You're not able to copy.
+
+[prakash senapati] 10:49:20
+I think… Okay.
+
+[prakash senapati] 10:49:29
+Yes. So, can you wait? I will share the GitHub.
+
+[prakash senapati] 10:49:32
+I will share the GitHub, guys. Can't you type this? Just one second.
+
+[prakash senapati] 10:49:40
+Hmm. Just, just one moment, I can ex… I can… let's find out.
+
+[prakash senapati] 10:49:48
+If, um… I will have… generated, so… generate content. I want to generate the content.
+
+[prakash senapati] 10:50:00
+So here, M doted generations. Methods, alright?
+
+[prakash senapati] 10:50:08
+and printm dot name. And now try that.
+
+[prakash senapati] 10:50:13
+I want to see my… Why the model has… Not display here.
+
+[prakash senapati] 10:50:24
+Session will be uploaded. Yeah, yeah, it's… session will upload in YouTube, guys.
+
+[prakash senapati] 10:50:29
+I'll share you the link. Just one moment.
+
+[prakash senapati] 10:50:34
+This would be opiant.
+
+[prakash senapati] 10:50:40
+I will share this link. please click that, and you can… Yeah, yes, Kaliani, I'm checking that.
+
+[prakash senapati] 10:50:49
+So here, for Gen AI, I want to find a list of models.
+
+[prakash senapati] 10:50:56
+And then, if… I want to generate a content.
+
+[prakash senapati] 10:51:05
+In… supported generation methods.
+
+[prakash senapati] 10:51:12
+printm.nate. Why? Just… Uh, here, I'm going to… 2 minutes.
+
+[prakash senapati] 10:51:24
+Okay, so we'll try to check. 5 Pro here.
+
+[prakash senapati] 10:51:31
+So, when I say, let's… I'm going to… If it works above… Runtime… Restart session, yes.
+
+[prakash senapati] 10:51:48
+Let's restart the session. And run all. I'm going to run all, let's try.
+
+[prakash senapati] 10:52:01
+Print and the link to enabled it. So, have you get this list of bunch of models, guys, for you?
+
+[prakash senapati] 10:52:09
+Maybe… have you get the bunch of model? Anyone try this? Okay, I will… I will keep this code. Please check it, guys.
+
+[prakash senapati] 10:52:20
+Okay, I'll keep this code here. Please write it.
+
+[prakash senapati] 10:52:24
+Import Pathloop text wrap.
+
+[prakash senapati] 10:52:29
+Can you reload browser? No, no, no, no, it's working fine.
+
+[prakash senapati] 10:52:34
+So it is showing for me Image Gen 4.0 also, it will display.
+
+[prakash senapati] 10:52:43
+Chill run time to GPU. Okay, save.
+
+[prakash senapati] 10:52:48
+And I will mount the model done. Very good, guys, so here we go. Connect to the Google Drive.
+
+[prakash senapati] 10:52:57
+And just click that.
+
+[prakash senapati] 10:53:05
+Okay. So how many of them got list of the models, guys? How many of them got list of the model here?
+
+[prakash senapati] 10:53:12
+Anyone? Okay, good, good. Appreciate it. I got… Very good, Kalyani done.
+
+[prakash senapati] 10:53:19
+Mm-hmm. Done, yes. Continue. Done. Good. Appreciated. Continue.
+
+[prakash senapati] 10:53:28
+Okay, so let's refresh. One moment…
+
+[prakash senapati] 10:53:46
+Okay. So now… Okay, let's close.
+
+[prakash senapati] 10:53:52
+We'll try this one more time.
+
+[prakash senapati] 10:54:00
+We install Q U.
+
+[prakash senapati] 10:54:04
+Okay, the installation's going on.
+
+[prakash senapati] 10:54:10
+2 minutes. Maybe if not, then I might change API key, because.
+
+[prakash senapati] 10:54:15
+For you, it's working. Great. And…
+
+[prakash senapati] 10:54:22
+Okay, let's move this drive. Now try this.
+
+[prakash senapati] 10:54:29
+print…
+
+[prakash senapati] 10:54:33
+Actually, it should display the bunch of model here.
+
+[prakash senapati] 10:54:37
+Print M. Okay. So, no problem, if you see that the 3 model has generated. Now, I want to write a… I'm testing, guys.
+
+[prakash senapati] 10:54:46
+I'm a testing now? So here, I'm take 3.0 flash model now.
+
+[prakash senapati] 10:54:53
+That's called model equal to… genai dot.
+
+[prakash senapati] 10:54:59
+geni.generative model. And which model I want to pass.
+
+[prakash senapati] 10:55:05
+Do you have 3.5 flash? Everyone check, please.
+
+[prakash senapati] 10:55:15
+Amazing, amazing.
+
+[prakash senapati] 10:55:20
+You got the point flash, guys. Two points.
+
+[prakash senapati] 10:55:27
+3 Pro, okay. I got 3Pro. Do you see model?
+
+[prakash senapati] 10:55:32
+3-point flash preview. Let's copy that model. And I will… And I will… Okay, so here… Let's pass the model here.
+
+[prakash senapati] 10:55:46
+and execute. And let's create… a response… I want to create a response equals to… model dot.
+
+[prakash senapati] 10:55:59
+model dot generate content. model.generateContent.
+
+[prakash senapati] 10:56:05
+And I want to generate a content. Tabular format.
+
+[prakash senapati] 10:56:13
+Create a table. of tablet for.
+
+[prakash senapati] 10:56:18
+create a table for. Uh… AI versus Gen AI versus… agentic AI.
+
+[prakash senapati] 10:56:30
+less is MCP, okay?
+
+[prakash senapati] 10:56:35
+No. execute that… So what I'm going to get is, let's call… print.
+
+[prakash senapati] 10:56:45
+response. Try that.
+
+[prakash senapati] 10:56:52
+Okay. So, print response… dot text.
+
+[prakash senapati] 10:57:00
+So I want to generate a text now. Great. Do you see the table has created, guys?
+
+[prakash senapati] 10:57:08
+Look at this so fast, we use which model?
+
+[prakash senapati] 10:57:11
+Germany 3 Flash Preview. Okay. How many of them done this, guys?
+
+[prakash senapati] 10:57:22
+Look at the first code. Done. Very good.
+
+[prakash senapati] 10:57:27
+So, I'll download this file and share to the… let's create a… This one, and we'll work it.
+
+[prakash senapati] 10:57:36
+So today we're using Gemini 3 model. Do you see how do I, how do you know that?
+
+[prakash senapati] 10:57:41
+This is what topic, non-top can, this is our temperature model parameters. Interview questions, what are the LA model parameters? So, these are the bunch of model parameters.
+
+[prakash senapati] 10:57:52
+So when you upgrade, so these parameters, you can use.
+
+[prakash senapati] 10:57:57
+Uh, on… on your project, on your company projects to generate a content of any client.
+
+[prakash senapati] 10:58:03
+Any of… if you work in an organization, if a client giving you any task.
+
+[prakash senapati] 10:58:09
+So, you can work these guys. So… I will share these things.
+
+[prakash senapati] 10:58:14
+Just one moment, let me down. This project I called as.
+
+[prakash senapati] 10:58:21
+This project I called as. One second… text generations model.
+
+[prakash senapati] 10:58:29
+Okay. first project.
+
+[prakash senapati] 10:58:37
+called text. Generations model.
+
+[prakash senapati] 10:58:41
+Using… using? Gemini 3.
+
+[prakash senapati] 10:58:46
+0.0 slash. So just here, and shift-enter, execute.
+
+[prakash senapati] 10:58:54
+So, file… Save one moment.
+
+[prakash senapati] 10:58:58
+I will share this code. So that…
+
+[prakash senapati] 10:59:06
+Okay, good. So, file save all. Serry copy, and… File… Hold on.
+
+[prakash senapati] 10:59:20
+Download.
+
+[prakash senapati] 10:59:24
+Great. So I'm going to… create my GitHub.
+
+[prakash senapati] 10:59:32
+I have already there, over here. Let's close that.
+
+[prakash senapati] 10:59:37
+And I'm going to create repositories. So in the repositories, I can post.
+
+[prakash senapati] 10:59:42
+new file, a new folder, new repo. Let's create a… Gemini 3.
+
+[prakash senapati] 10:59:50
+Okay. So… Let's create a new report.
+
+[prakash senapati] 10:59:56
+And once you create a new repo. Just upload existing file.
+
+[prakash senapati] 11:00:03
+And… okay. So when I download, I must remove my API key, or else they get not.
+
+[prakash senapati] 11:00:11
+accepted. So just go to download. And here… I want to remove my API key, guys.
+
+[prakash senapati] 11:00:20
+Just one second…
+
+[prakash senapati] 11:00:29
+So, this is my APA key. I'm going to… remove that file.
+
+[prakash senapati] 11:00:35
+Saw. Sabled.
+
+[prakash senapati] 11:00:39
+Close it. Minimize, and let me open one more time.
+
+[prakash senapati] 11:00:49
+Good. Let's close. And this is… boot camp? Which project?
+
+[prakash senapati] 11:00:58
+text-based model. Okay, so go to this one.
+
+[prakash senapati] 11:01:03
+And choose your file. Go to downloads, and I'm sharing it.
+
+[prakash senapati] 11:01:08
+just commit changes. One moment… Choose your file, and… Download this.
+
+[prakash senapati] 11:01:22
+Great. Okay, I'll copy that.
+
+[prakash senapati] 11:01:29
+And shared the code to you. Just copy that. Okay, this is the first one. Shall we go to another one, guys?
+
+[prakash senapati] 11:01:37
+Shall we go to another one? Yes. Online team understood everyone. Good. So the next one.
+
+[prakash senapati] 11:01:45
+Next try for another topic. So, text-based model, Gemini 3 LLM Bootcamp.
+
+[prakash senapati] 11:01:51
+So, as you might want to take one picture from here.
+
+[prakash senapati] 11:01:55
+So, how to take… All right, just go back to this file.
+
+[prakash senapati] 11:02:02
+Tim, are you there, everyone? Okay.
+
+[prakash senapati] 11:02:09
+Yep. So the next part is… I'm going to do a… Second project now.
+
+[prakash senapati] 11:02:18
+In the second project, we build. Amaze gen model.
+
+[prakash senapati] 11:02:24
+Using Gemini 3, using… Gemini 3. So, how do I build this?
+
+[prakash senapati] 11:02:32
+project now, let's create a text. Let's copy that, and… Based here.
+
+[prakash senapati] 11:02:39
+So let's try, close it. So this becomes your… We're gonna do this project, guys, now, second project.
+
+[prakash senapati] 11:02:48
+So, what I'm going to do, I want to bring one picture to my.
+
+[prakash senapati] 11:02:54
+drive, and once I bring back to the picture.
+
+[prakash senapati] 11:02:57
+So we'll try to read it. So how do I read the picture?
+
+[prakash senapati] 11:03:02
+Very simple, you can open that and click the upload button.
+
+[prakash senapati] 11:03:06
+Click the upload button. Once you click the upload button, I have some picture here.
+
+[prakash senapati] 11:03:13
+Let me call… parts picture. Okay.
+
+[prakash senapati] 11:03:17
+Okay, I got this hots image now. Do you see horse image, guys? You need to select this.
+
+[prakash senapati] 11:03:25
+You need to select this. And you copy path.
+
+[prakash senapati] 11:03:29
+This is the path locations you got. And here… Let's try now. So, I want to import, this is Python amazing library.
+
+[prakash senapati] 11:03:42
+This is Python image library. M is equal to.
+
+[prakash senapati] 11:03:48
+that image… I want to pass to… pill dot image dot.
+
+[prakash senapati] 11:03:56
+image.open, not… I want to open the image.
+
+[prakash senapati] 11:04:03
+on the spot locations, okay? And now… it makes.
+
+[prakash senapati] 11:04:08
+Just try. So we read an image, guys. Okay, we just read an image from here.
+
+[prakash senapati] 11:04:14
+And once we read an image. This image, I want to pass to my Gemini 3 model.
+
+[prakash senapati] 11:04:22
+So, let's got response. So here, equal to… response 1, because I take a response over here.
+
+[prakash senapati] 11:04:31
+Okay, let's talk about… Response equal to model dot… generate content, let's called ImageNow.
+
+[prakash senapati] 11:04:41
+Okay, guys. So here… No, I'm saying?
+
+[prakash senapati] 11:04:48
+to mark down. response.text.
+
+[prakash senapati] 11:04:51
+So let me try this now… execute.
+
+[prakash senapati] 11:04:57
+If you see this part, guys.
+
+[prakash senapati] 11:05:02
+Okay, the image has majesty Cream, colored hearts. through sun-drenched meadow, guys, all right.
+
+[prakash senapati] 11:05:11
+The same things, if I go to. Okay, I will… I'll pass another image here.
+
+[prakash senapati] 11:05:16
+This is what, okay? Second project we're working, image gen model using Gemini 3.
+
+[prakash senapati] 11:05:21
+So we are using Gemini 3 here. The model, if you notice that.
+
+[prakash senapati] 11:05:26
+Gemini 3 flash preview model we've been used here.
+
+[prakash senapati] 11:05:29
+So what I'm going to do now, I'll upload one picture.
+
+[prakash senapati] 11:05:33
+Let's talk about that. I'll upload the new… matches going on.
+
+[prakash senapati] 11:05:40
+So let's go back to desktop. full-stack data science.
+
+[prakash senapati] 11:05:47
+Okay, team? Let's… copy path.
+
+[prakash senapati] 11:05:55
+And… I'm going to give that path locations. Just read that.
+
+[prakash senapati] 11:06:04
+So this is the file, this is the image.
+
+[prakash senapati] 11:06:07
+Do you see Naresh IT, full stack data science, Jenna Agent TKI.
+
+[prakash senapati] 11:06:11
+We do provide mock tools, we do take mock interviews by AI-powered.
+
+[prakash senapati] 11:06:17
+And here, so this is content. And now I'm going to say response.
+
+[prakash senapati] 11:06:23
+To this one, and you get output, guys. So here, look at this.
+
+[prakash senapati] 11:06:28
+Okay, based on image provided, here is the summary of the training.
+
+[prakash senapati] 11:06:33
+all the content, you get it from here. Now, if I go back to this here again.
+
+[prakash senapati] 11:06:38
+To build agents. Gemini 3, same model if I… Quote now, flash preview.
+
+[prakash senapati] 11:06:47
+Just open it. And… go to Home section.
+
+[prakash senapati] 11:06:54
+And which is called Chart With Models. I can call this.
+
+[prakash senapati] 11:07:01
+So here… Google… Gemini EA?
+
+[prakash senapati] 11:07:08
+Now, let's log into this one. Okay, here the same picture I'm going to upload now.
+
+[prakash senapati] 11:07:15
+And… try this.
+
+[prakash senapati] 11:07:20
+Okay. Content from the image.
+
+[prakash senapati] 11:07:29
+content from them is when you try, the fastest.
+
+[prakash senapati] 11:07:33
+apply. So here, what I'm trying to saying is, whatever Gemini 3 has done, being a developer.
+
+[prakash senapati] 11:07:40
+We develop same kind of practical guys. Have you understand team?
+
+[prakash senapati] 11:07:46
+same output we got here as well. How many of them clear? How many of them clear today?
+
+[prakash senapati] 11:07:54
+Just… how many of them clear team? Did you understood. So the two projects we've been working now. Yes, Sandeep Abdul.
+
+[prakash senapati] 11:08:03
+When Kadesh. Good job. How many of them completed?
+
+[prakash senapati] 11:08:07
+By Gemini 3 model. Very good update. So, what I'm trying to speak is, whatever we done by Gemini.
+
+[prakash senapati] 11:08:14
+So it… everyone can talk about this. But we can build it, that's the work of LLM developer in a company. So… It may be an organization's or client provides some content to you, and they want to apply RAG model to that, and they apply to agentic AI, I mean, how to build a content generation, and they can apply rack to it, guys.
+
+[prakash senapati] 11:08:37
+So this is what has worked by. the company organizations. So, file, save, I'm going to save it now.
+
+[prakash senapati] 11:08:47
+And this called image gen model. So, team, are you understand?
+
+[prakash senapati] 11:08:54
+I think freshers might be a little hard to understand, but yes, the one who's studying, then definitely they can clear. It's very simple. What I… what I'm saying, we have Gemini 3, that Gemini 3 use here.
+
+[prakash senapati] 11:09:09
+We develop a code for it, and we build exactly similar kind of things we've been developed.
+
+[prakash senapati] 11:09:15
+Isn't it, team? Isn't it? So let's… File and download.
+
+[prakash senapati] 11:09:22
+And again. I will save it to the… This is called… This is called… image model. This is called… image model. Now try that.
+
+[prakash senapati] 11:09:39
+So let me double-click on it.
+
+[prakash senapati] 11:09:47
+And here. I'll remove the API key.
+
+[prakash senapati] 11:09:51
+And then I will upload to the Git now.
+
+[prakash senapati] 11:09:54
+So try this.
+
+[prakash senapati] 11:09:59
+Okay, not this one. I think… 2 minutes.
+
+[prakash senapati] 11:10:07
+text-based model. And this one… call this image-based.
+
+[prakash senapati] 11:10:14
+model… we call this multi-model as well. Understood, guys?
+
+[prakash senapati] 11:10:17
+So let's double-click on it, and I will remove my API key from here.
+
+[prakash senapati] 11:10:23
+And I'll remove my API key, because. Or else it could be an issue.
+
+[prakash senapati] 11:10:30
+Have you… have you download from… have you download from Git?
+
+[prakash senapati] 11:10:36
+File, save. If you can't do right now, no problem, the session is going on live, so you can do that.
+
+[prakash senapati] 11:10:45
+So, get 404 errors. Let's see if… Okay. So, if you get that error, I can post, I can share that to… Arif, and he can post it, guys.
+
+[prakash senapati] 11:11:01
+Not found. Getting error, get clone. Oh, is it? Okay.
+
+[prakash senapati] 11:11:08
+No problem. So, have you scanned this QR code? The one who knew… the new… the one who.
+
+[prakash senapati] 11:11:14
+new student, the new learner, you can try that.
+
+[prakash senapati] 11:11:19
+Yes. Yes. What is markdown? So the markdown, it give a list of the models from Geni, so that is.
+
+[prakash senapati] 11:11:30
+pre-inbuilt code, so then only you will find out the list, guys.
+
+[prakash senapati] 11:11:35
+Okay, so… I'm going to create.
+
+[prakash senapati] 11:11:40
+So the two-part… So here, I'm going to… I'm going to build the same things.
+
+[prakash senapati] 11:11:48
+in my VS Code. to create an end-to-end project now. So here we develop a backend, and if I give same.
+
+[prakash senapati] 11:11:55
+Gemini API project to someone using Gemini 3, so I have to build my own code. I'm going to create a new folder.
+
+[prakash senapati] 11:12:05
+Or maybe I can call it open folder. So, just… C drive, user.
+
+[prakash senapati] 11:12:17
+select folder. Okay, so today's session, one of the things we done? The first one, we introduced to Google DeepMind.
+
+[prakash senapati] 11:12:25
+Google DeepMind was research company of Google. Intro to Gemini 3LM. It's Gemini 2, Gemini 3, Gemini 1, all are same.
+
+[prakash senapati] 11:12:32
+But just extended versions of the model output and context as more, and tokens as more.
+
+[prakash senapati] 11:12:39
+and explore Gemini 3LM. So, we use documents to read and give detailed summary of it.
+
+[prakash senapati] 11:12:45
+This is done by Google. Now, I developed my own code, I develop my own code.
+
+[prakash senapati] 11:12:52
+in that on code, I can do the similar thing, whatever done by Gemini 3. So today, if I submit.
+
+[prakash senapati] 11:12:59
+this code to my client, definitely he need to have a complete project.
+
+[prakash senapati] 11:13:04
+So let's build that complete project, and I'm integrating with VS Code, and you display, uh, to front-end creations, and then we can… let's explode that, guys, okay?
+
+[prakash senapati] 11:13:15
+So, I'm going to create a folder here. That's called… Gemini 3 workshop.
+
+[prakash senapati] 11:13:22
+Or maybe I get called LLM Boot Camp. I'm gonna create this here, and right-click New File.
+
+[prakash senapati] 11:13:31
+And I'm gonna build app dot. BYU. Alright?
+
+[prakash senapati] 11:13:36
+So, um, let me file, go to the file, and… save. So let's click that.
+
+[prakash senapati] 11:13:45
+So, I'm importing my… extremely tasty. All right, and import OS.
+
+[prakash senapati] 11:13:53
+operating system, import… Pathlib import.
+
+[prakash senapati] 11:13:59
+text wrap, so…
+
+[prakash senapati] 11:14:04
+text wrap, right, guys? and import OS we have.
+
+[prakash senapati] 11:14:08
+So, the same things, I think, already we've done, not required.
+
+[prakash senapati] 11:14:12
+Over here again. Voice dot environment, and… I want to create a… Ah, Gemini 3, okay.
+
+[prakash senapati] 11:14:24
+Germany 3 or Gemini API? key, that's fine. And I'm gonna get my API key from here.
+
+[prakash senapati] 11:14:32
+Just get the EPA key from here. And… Just one second… Just one second, you go up, go up, go up.
+
+[prakash senapati] 11:14:50
+this one. I'm gonna copy that now. And get back to Vietnam.
+
+[prakash senapati] 11:14:57
+Alright, so I want to import…
+
+[prakash senapati] 11:15:03
+Google.generative AI as genai, and I want to configure geni.
+
+[prakash senapati] 11:15:10
+Chennai dot. gene.configured. I want to… configure API key.
+
+[prakash senapati] 11:15:20
+Equal to Environment. Perfect. Okay, so the same thing, I mean, whatever I'm doing that, I put that in the same code, and this code, I have to.
+
+[prakash senapati] 11:15:30
+write it again, guys. Let's have…
+
+[prakash senapati] 11:15:36
+Now, what I'm gonna do now. So, I'm gonna create a function.
+
+[prakash senapati] 11:15:45
+get… I want Germany to be response. Germany 3 responds, no, look at the.
+
+[prakash senapati] 11:15:54
+options it has given? No, I'm not gonna use that.
+
+[prakash senapati] 11:15:58
+So, I'm writing my own here. I want to pass input and pass to argument as.
+
+[prakash senapati] 11:16:07
+in May's argument. All right, guys. And here, define getGemini.
+
+[prakash senapati] 11:16:12
+response, Gemini has to. Response from Enput.
+
+[prakash senapati] 11:16:17
+And let's pass my… Model equal to… generate dot.
+
+[prakash senapati] 11:16:24
+So, which model, generative model? I'm not gonna use Gemini 1.5 Pro, it was oldest model.
+
+[prakash senapati] 11:16:32
+Yes. Okay.
+
+[prakash senapati] 11:16:40
+little cloud.
+
+[prakash senapati] 11:16:45
+Okay. So who is that?
+
+[prakash senapati] 11:16:53
+Okay. I'm not using any 1.5 Pro, because we are using… Gemini 3.5, right guys here?
+
+[prakash senapati] 11:17:02
+Just 2 minutes. Where is Germany? Reflash… Because I just copied that. Let me… get the model from here, which I've been developed right now.
+
+[prakash senapati] 11:17:15
+this model, 3. Let's copy that. Alright, guys.
+
+[prakash senapati] 11:17:20
+So here, let me get back to…
+
+[prakash senapati] 11:17:28
+Great. So I… Now, I'm going to… if… let's create a frontend now.
+
+[prakash senapati] 11:17:37
+If user… Okay, not… Equal.
+
+[prakash senapati] 11:17:43
+User doesn't enter any informations. Then here… Then… response.
+
+[prakash senapati] 11:17:54
+Model has to generate the content. Generate.
+
+[prakash senapati] 11:18:02
+Content, which content it has to be generate. That generator has to be both parameter I need to pass.
+
+[prakash senapati] 11:18:10
+Content from input, and… It makes… okay.
+
+[prakash senapati] 11:18:15
+And… else? So here, I'm gonna get a response.
+
+[prakash senapati] 11:18:22
+Direct from image itself. Great. So I want to read a… Multi-lease. And then, written response.txt.
+
+[prakash senapati] 11:18:30
+Great. So, I create a functions here. There's no bugs.
+
+[prakash senapati] 11:18:35
+So this part is clear. Now, I want to… this part is good. So we import all the libraries.
+
+[prakash senapati] 11:18:44
+We… I fetch my PA key, and I call Gemini 3 model, and… Uh, okay. If else written, that's fine.
+
+[prakash senapati] 11:18:55
+Now, I'm going to create a streamlit base. So, set base, config, page title, Gemini 3, LLM bootcamp by.
+
+[prakash senapati] 11:19:07
+Prakash. Synopathy, and page icon, it has given by… Okay, let's keep that page icon, as it has… Given by that, no problem.
+
+[prakash senapati] 11:19:23
+And ST dot… header. I'm going to make header as… Okay, Germany 3, LLM.
+
+[prakash senapati] 11:19:33
+boot camp by… Okay, that would be the header.
+
+[prakash senapati] 11:19:39
+And now, I'm gonna create… Input… text.
+
+[prakash senapati] 11:19:48
+No, I sang text. input. I want to make a… Enter a… let's do that.
+
+[prakash senapati] 11:19:58
+So, text input, what is the text input I want to make as… That's called… input prompt, because input prompt user has to be.
+
+[prakash senapati] 11:20:08
+And then here… E equal to… input, okay? Done.
+
+[prakash senapati] 11:20:15
+So this one we've been created. And I want to upload my file.
+
+[prakash senapati] 11:20:19
+Which file I want to upload. Any file you want to upload enemies.
+
+[prakash senapati] 11:20:26
+Or set… not upload enemies, I want to… select as… Choose and.
+
+[prakash senapati] 11:20:34
+image from here. And… type PNG, GPG. This is all the image files we have, guys.
+
+[prakash senapati] 11:20:41
+Yes. And once you have the… uploaded file.
+
+[prakash senapati] 11:20:48
+So I'm gonna create my… Images, so let's… Okay. If… It means… Okay, so what we've done so far?
+
+[prakash senapati] 11:21:03
+A streamlit generator model has been fetched. And page icon has created.
+
+[prakash senapati] 11:21:09
+Okay. If I upload my file is… if I didn't upload, if the user didn't upload file, okay?
+
+[prakash senapati] 11:21:18
+If upload file is not none. Then… so what I'm gonna do… Uh… hmm… So, it means equals to… Open.
+
+[prakash senapati] 11:21:35
+Open. So, upload file. Great. And… Hold on… it's wrong.
+
+[prakash senapati] 11:21:47
+Okay, if upload file is not none, upload file, then I can call that as… st.m.
+
+[prakash senapati] 11:21:58
+I have to call the image argument. And caption, yes.
+
+[prakash senapati] 11:22:03
+use column with true, because these are all the parameters.
+
+[prakash senapati] 11:22:06
+Because we've been worked a bunch of times in Streamlit, so that's what we know, guys, how it works, so… No, I want to… submit button, st.button.
+
+[prakash senapati] 11:22:19
+Explain, generate response. about the EMEs.
+
+[prakash senapati] 11:22:25
+using Gemini 3 LLM, okay? So, now, if user.
+
+[prakash senapati] 11:22:31
+Submit the button, then… Then, response… has to be, response should come from.
+
+[prakash senapati] 11:22:40
+get Gemini response functions I created here. Do you see this function? Let's… call the functions, and… Okay, from input comma.
+
+[prakash senapati] 11:22:52
+And st dot subheader. And here, ST dot… Right?
+
+[prakash senapati] 11:23:00
+Hmm…
+
+[prakash senapati] 11:23:09
+Okay, so let's try this. Control-less.
+
+[prakash senapati] 11:23:14
+Save it, guys. And I saved it now. And I call my API key. Let's go to terminal.
+
+[prakash senapati] 11:23:23
+Let's go to terminal, new terminal. And… I'll build as… Bob was shuttle command prompt.
+
+[prakash senapati] 11:23:33
+And the command prompt, which file I have CD.
+
+[prakash senapati] 11:23:37
+CD2, Gemini LLM, Gemini 3LM boot. Camp, and I called as… Which one? App.p1. Now try this.
+
+[prakash senapati] 11:23:48
+Let's check any error. No module name streamlet. Okay, where is that error, guys? Let's bug fix this.
+
+[prakash senapati] 11:24:00
+S T R E A M L I T.
+
+[prakash senapati] 11:24:02
+Okay, done. Save it. Now, just… Go here, let's do any bugs now.
+
+[prakash senapati] 11:24:11
+And other bugs? Excellent.
+
+[prakash senapati] 11:24:17
+So here… Okay. Now, I'm going to upload… listen to me.
+
+[prakash senapati] 11:24:25
+Let's browse a file. Which I'm gonna browse from here.
+
+[prakash senapati] 11:24:33
+attribute error.
+
+[prakash senapati] 11:24:38
+Whatever, guys. String object has no attribute called open.
+
+[prakash senapati] 11:24:46
+Where is that open? Control-f.
+
+[prakash senapati] 11:24:55
+Okay, so M is equal to… emaze.open… Anything else?
+
+[prakash senapati] 11:25:08
+Okay. So, image string there, where everybody…
+
+[prakash senapati] 11:25:17
+upload image… No, it's fine. If it's string immediately, line number 29.
+
+[prakash senapati] 11:25:29
+Okay… It's alright. I don't think so. It could be the issue here.
+
+[prakash senapati] 11:25:38
+from pill importees.
+
+[prakash senapati] 11:25:45
+Yeah, thanks buddy. I was missing it.
+
+[prakash senapati] 11:25:49
+My bad, yes, controllers, exactly. Thank you. Yes, yes, right, Venkadesh, that line was missing there.
+
+[prakash senapati] 11:25:59
+Okay, I get it now. Now, control S… by Sewol.
+
+[prakash senapati] 11:26:04
+And try that. Okay, the browse file… Then let's upload.
+
+[prakash senapati] 11:26:13
+string object has no attribute open one more time.
+
+[prakash senapati] 11:26:22
+Yes, good. Line number 30… If I remove this… Then it will give me error, guys.
+
+[prakash senapati] 11:26:39
+No, no, no, no, it's not. The small I here.
+
+[prakash senapati] 11:26:51
+No, it is B… I don't think so. Small eye as images from pill.
+
+[prakash senapati] 11:27:00
+Input image… Wait, wait.
+
+[prakash senapati] 11:27:09
+Okay. Two minutes…
+
+[prakash senapati] 11:27:31
+Now try this one. Is it working? Yes, we just removed line number 30… yeah, yeah, wait, wait, I will check it.
+
+[prakash senapati] 11:27:40
+So here… hmm. string object has no attribute open. Actually, the string also, nowadays, they are keep changing the files.
+
+[prakash senapati] 11:27:51
+Let's do it, and… okay. No attribute open. Image.open. So what if I'm gonna make as…
+
+[prakash senapati] 11:28:03
+No, controllers. You miss captions, it will give another bugs, it seems, when I take.
+
+[prakash senapati] 11:28:12
+A G E.
+
+[prakash senapati] 11:28:28
+Sol…
+
+[prakash senapati] 11:28:33
+Response…
+
+[prakash senapati] 11:28:42
+Okay. Once… Spamming… where is that?
+
+[prakash senapati] 11:28:48
+Response. That's okay. Let's try this now.
+
+[prakash senapati] 11:28:54
+And here, browse file, and…
+
+[prakash senapati] 11:29:03
+Try this wait…
+
+[prakash senapati] 11:29:09
+Okay, I have to… Let's refresh now.
+
+[prakash senapati] 11:29:14
+Yeah, I'm doing that. And here… I'll try this still string object has open one more.
+
+[prakash senapati] 11:29:22
+No, all these guys, come on. 2 minutes.
+
+[prakash senapati] 11:29:28
+So why… here we go… Let's talk about… This one… So, does Streamlit has updated the code, open function?
+
+[prakash senapati] 11:29:40
+That could be the another issue might be it happens, guys.
+
+[prakash senapati] 11:29:47
+Two minutes, so here…
+
+[prakash senapati] 11:30:05
+Yes. Please make it none. Yeah, so here, we will try this.
+
+[prakash senapati] 11:30:13
+If… just wait. I want to check this Y string object attribute has.
+
+[prakash senapati] 11:30:22
+as open… Now, little refer… The string object has no attribute called open. It's supposed to be work.
+
+[prakash senapati] 11:30:31
+Alright, team. So… You may just please modify the…
+
+[prakash senapati] 11:30:41
+One moment, guys. Okay, so wait, I'm gonna change this to… image itself.
+
+[prakash senapati] 11:30:49
+And… okay. I will change to… emails.open.
+
+[prakash senapati] 11:30:56
+I think if I try st.imase.open. Does it work? Let's try.
+
+[prakash senapati] 11:31:11
+Okay, immediate call to image I mentioned, let's try.
+
+[prakash senapati] 11:31:16
+Caption upload image, use container. Here, I called image.
+
+[prakash senapati] 11:31:24
+Yes. PIN capital pill?
+
+[prakash senapati] 11:31:28
+No, that's fine, that's okay. Capital pill only is given.
+
+[prakash senapati] 11:31:34
+Okay. The small, small bugs, it will be happen, guys, no worries.
+
+[prakash senapati] 11:31:40
+I will try this now, and then… refresh… Did I save it?
+
+[prakash senapati] 11:31:47
+Hope it works. Go to browse file… Let's explore it.
+
+[prakash senapati] 11:31:55
+Okay, module has no attribute image, now the line… the… Mister Tupin is fine. Wait, wait, wait.
+
+[prakash senapati] 11:32:02
+Extremely has no attribute image.
+
+[prakash senapati] 11:32:09
+I think this one is not required, right guys?
+
+[prakash senapati] 11:32:18
+This thing is not required, actually.
+
+[prakash senapati] 11:32:26
+Yep. Yeah, yeah, yeah.
+
+[prakash senapati] 11:32:32
+st.mes. No, you don't know why, see, you guys simply saying, but I want to know.
+
+[prakash senapati] 11:32:38
+It should work. Let me check.
+
+[prakash senapati] 11:32:48
+Okay, okay, okay, get it now. Here, not open, no. I hope it's right. Let's saved it.
+
+[prakash senapati] 11:32:57
+Refresh it, browse file… try this… Okay. The use column width… parameter. Do you see these model has deprecated?
+
+[prakash senapati] 11:33:10
+Use has been removed. Use… Container width, right?
+
+[prakash senapati] 11:33:16
+So I'm going to copy that. And… what is that? Use column width.
+
+[prakash senapati] 11:33:24
+Okay, I want to try this. generate response about the image. Now click that.
+
+[prakash senapati] 11:33:33
+Okay, no attribute get. Now, another error come up. Great.
+
+[prakash senapati] 11:33:38
+Interesting. Let's try. So, response… Generative model has no attribute gets.
+
+[prakash senapati] 11:33:54
+Okay, okay. So I think in functions…
+
+[prakash senapati] 11:34:03
+True. So this one is wrong here. I guess?
+
+[prakash senapati] 11:34:07
+That's fine. Control is now. Okay, now go back, and… refresh, get response…
+
+[prakash senapati] 11:34:20
+I hope it's working. Let's try…
+
+[prakash senapati] 11:34:25
+Great. Do you see, top left. look at the… you can find out, see how the model has more powerful, and now try these guys here.
+
+[prakash senapati] 11:34:37
+When you try this, the image is a promotional postage of training course offered by.
+
+[prakash senapati] 11:34:42
+Okay, header information, top left. I'm, I'm talk with this now.
+
+[prakash senapati] 11:34:49
+always… I mean, who is… The trainer. Okay, what is the trainer name?
+
+[prakash senapati] 11:34:57
+What is… The lead… Great name. Okay, I'll… Question mark. Look at this.
+
+[prakash senapati] 11:35:09
+In this… in this page has multiple. document, content, all those things, right, guys?
+
+[prakash senapati] 11:35:14
+If the LLM model has to be fetched this one.
+
+[prakash senapati] 11:35:18
+I mean, if the fetch correct information or not, let's try this now, and we will test it.
+
+[prakash senapati] 11:35:23
+And when you see these guys. Awesome! Do you see this, guys?
+
+[prakash senapati] 11:35:29
+Based on the image provided, so this is Gemini 3 LLM Boot Camp by me, and it.
+
+[prakash senapati] 11:35:36
+to get you the right informations, it is awesome. I mean to say.
+
+[prakash senapati] 11:35:42
+See, from this… from this text. It has not… it is not given anything else, but detect my name only, so that's.
+
+[prakash senapati] 11:35:52
+called a fast thinking. That's called the fast thinking. Now, I can call this… What is the course?
+
+[prakash senapati] 11:36:00
+title from this. Pace. Now, let's… Generate response.
+
+[prakash senapati] 11:36:07
+And… Based on, okay, full-stack data science with generic AI. Awesome, guys, alright? Look at… look at the way level of… I'm an OCR, and you can rag, all those things, it's kind of Gemini 3 also integrating built-in RAG.
+
+[prakash senapati] 11:36:27
+To capture a specific given, guys, isn't it? So now… I could say, like… Courts, durations, and… time.
+
+[prakash senapati] 11:36:41
+Okay, what time the program started. started the what time?
+
+[prakash senapati] 11:36:48
+The program started, guys. Now, try this and… Let's generate response now.
+
+[prakash senapati] 11:36:56
+So in your response, let's do it. Okay.
+
+[prakash senapati] 11:37:02
+Okay, 4PM. Mind-blowing, the image doesn't… Wow, man, great, look at it, the image doesn't mention the duration of the course.
+
+[prakash senapati] 11:37:11
+But here, true, that's true, the image doesn't contain the duration of the course.
+
+[prakash senapati] 11:37:18
+Awesome! Guys, do you see how powerful the 3 Gemini 3 model? And I can say that.
+
+[prakash senapati] 11:37:26
+To whom? To contact. Or enroll.
+
+[prakash senapati] 11:37:33
+this program. Under lead expert.
+
+[prakash senapati] 11:37:40
+Lead, Gen AI, and… isn't took.
+
+[prakash senapati] 11:37:45
+AI expert. It doesn't matter how… whatever you… I mean.
+
+[prakash senapati] 11:37:52
+Now, try this, and now… opened this initial response.
+
+[prakash senapati] 11:38:05
+Now, do that. Okay, excellent. Based on the image provided in rule.
+
+[prakash senapati] 11:38:10
+Okay, caused by, you should contact Neryside Technology. And… so here… Okay, now I can ask, because for this batch.
+
+[prakash senapati] 11:38:23
+The administrations was… I could say, like… Okay, so the course… administrations… He's… okay, now we can find out, guys, here.
+
+[prakash senapati] 11:38:41
+Okay, what topic? Okay, what are the… what are the main modules.
+
+[prakash senapati] 11:38:49
+Find out from the pace. You'll get it now, guys.
+
+[prakash senapati] 11:38:55
+Generate. You try to generate here.
+
+[prakash senapati] 11:38:59
+And you get it now. Let's wait for some time.
+
+[prakash senapati] 11:39:02
+I want to change another image as well. Excellent.
+
+[prakash senapati] 11:39:06
+MLOps, RAG, CICD pipeline, awesome. Code subject full-stack data science, AI-powered mock interviews, instructor, classroom, and online.
+
+[prakash senapati] 11:39:19
+So guys, the session is starting, so you can refer your friends and everyone. So, I want to change another picture, just go to download.
+
+[prakash senapati] 11:39:27
+I'll have some… some of my students, uh, let's try to.
+
+[prakash senapati] 11:39:36
+All file, all file, and just go to… Here… one moment.
+
+[prakash senapati] 11:39:46
+Large icon. And I want to take one picture from here. Let's… talk about this one. I want to upload one picture.
+
+[prakash senapati] 11:39:53
+Okay, image HE file are not allowed. Okay. Do you see H-E-I-C?
+
+[prakash senapati] 11:40:01
+Do you think it will accept the HEIC pictures?
+
+[prakash senapati] 11:40:06
+No. H-E-I-C.
+
+[prakash senapati] 11:40:12
+I mean, this is… save it. Now, try that.
+
+[prakash senapati] 11:40:19
+Do you think it will accept? Yes, now go to the browse file, and… Okay, browse file.
+
+[prakash senapati] 11:40:29
+And… All file.
+
+[prakash senapati] 11:40:36
+No, it's not accepting. So this file is not accepting, guys.
+
+[prakash senapati] 11:40:41
+So what I'm gonna do now, I will change the picture.
+
+[prakash senapati] 11:40:46
+I'm in… So here, I will take some of the pictures from here.
+
+[prakash senapati] 11:40:54
+Let's do this. And maybe…
+
+[prakash senapati] 11:41:01
+The copy, and I'll paste here. F2 dot.
+
+[prakash senapati] 11:41:09
+Hmm. try this. I want to just try to explode some more practical, how the Gemini 3 has working.
+
+[prakash senapati] 11:41:18
+all file. No, this is not supports. So what I'm gonna do now, I will use that here, and… Let's use snipping tool.
+
+[prakash senapati] 11:41:30
+in the snooping tool. I'll take that up. So, this is our campus team.
+
+[prakash senapati] 11:41:36
+So here, I'm going to… Save as… desktop, and PNG.
+
+[prakash senapati] 11:41:44
+Okay. Laura notes. see it. Now close it.
+
+[prakash senapati] 11:41:52
+And close it and close it. So let's get back to the code. Browse file.
+
+[prakash senapati] 11:41:57
+And go to desktop. No, that's great.
+
+[prakash senapati] 11:42:03
+So, why is it browsing file or not? Choose an image, browse file.
+
+[prakash senapati] 11:42:14
+BNG. What happened? Okay, okay.
+
+[prakash senapati] 11:42:20
+So I think from the code, I have to… remove this. Yes, guys.
+
+[prakash senapati] 11:42:27
+Now, control is now… Go back to this code, and… Let's browse one more time.
+
+[prakash senapati] 11:42:34
+So I don't want… That's called this one.
+
+[prakash senapati] 11:42:54
+What will happen? The code will change. Okay, you can ask this. Now you can… Okay, choose enemies. White is… Just try to check that.
+
+[prakash senapati] 11:43:08
+learners. I think I may choose wrong emails, right guys?
+
+[prakash senapati] 11:43:11
+Exactly, exactly. I'm trying to… Yes. Do you see this case?
+
+[prakash senapati] 11:43:19
+Now, I'm asking… Okay, so this is what emails I upload.
+
+[prakash senapati] 11:43:25
+my… no, I can say. Can you count the list of.
+
+[prakash senapati] 11:43:32
+In the student. from this picture.
+
+[prakash senapati] 11:43:38
+So now, generate responses. So let's generate the responses from here.
+
+[prakash senapati] 11:43:45
+And…
+
+[prakash senapati] 11:43:54
+Okay, there are 27 students. Okay, picture there. 27 count. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.
+
+[prakash senapati] 11:44:04
+2021, 2023, 24, 26, I think 27, exactly. Do you see these guys? 27 and.
+
+[prakash senapati] 11:44:13
+How many boys. And can you count the boys?
+
+[prakash senapati] 11:44:19
+Can you calm the boys? And… Girls.
+
+[prakash senapati] 11:44:26
+from the maze. Now, just… response.
+
+[prakash senapati] 11:44:34
+So, guys, it is… it is one of the powerful LLM, okay?
+
+[prakash senapati] 11:44:40
+I mean, the 13 boys and 14 girls, mind blowing, that means rather than… the model is counting.
+
+[prakash senapati] 11:44:46
+Count it, you can count, and you got appropriate response, guys. Awesome.
+
+[prakash senapati] 11:44:51
+Have you noticed this stream? Okay, so you get my point.
+
+[prakash senapati] 11:45:01
+Can be meeting through thousands. I'll tell you, see, most of things has been.
+
+[prakash senapati] 11:45:06
+Isn't it, guys? So… Have you seen it like how image analysis is done exactly so that means it is… you can do many things. I've also done previous workshops on Gemini antigravity, how it can… capacity to do that. You can watch them, guys.
+
+[prakash senapati] 11:45:23
+all the videos. Understood. So you can find out, and you can build a nice practical for it.
+
+[prakash senapati] 11:45:30
+And control less. Let's close it, guys. And close… So today, I built 3 projects.
+
+[prakash senapati] 11:45:39
+So we've done a end-to-end project. end-to-end.
+
+[prakash senapati] 11:45:44
+Project. I'm in Gemini 3. The RAG model has internal.
+
+[prakash senapati] 11:45:50
+Integrated, multi-model. of end-to-end project.
+
+[prakash senapati] 11:45:55
+Using Python plus… streamlet, and… Okay, and Gemini 3.
+
+[prakash senapati] 11:46:03
+Gemini 3 which model we call? Gemini 3 flash model.
+
+[prakash senapati] 11:46:07
+We've been worked, guys. So we'll get some issues.
+
+[prakash senapati] 11:46:11
+And I will add them in GitHub as well.
+
+[prakash senapati] 11:46:15
+So… so new bet announcement. Tomorrow, the new students, you can refer to your.
+
+[prakash senapati] 11:46:20
+friends, people, I mean, whoever wants to. continue this, guys. And… okay, so if you like it, if you really enjoy the sessions.
+
+[prakash senapati] 11:46:28
+So guys, do you understand? Do you enjoy the class? Please answer me, and… today. So, appreciate your likes, shares, and comments on it.
+
+[prakash senapati] 11:46:38
+Great job, guys. Thank you.
+
+[prakash senapati] 11:46:45
+All enjoyed, very good. Okay, Abishek, unmute you. What happened, man? You've been asking.
+
+[prakash senapati] 11:46:51
+two times unmute you. What's your query? What's your query, please?
+
+[prakash senapati] 11:46:58
+Okay, excellent. I hope you… You like that? Good job, so please appreciate your.
+
+[prakash senapati] 11:47:03
+Do not forget. Uh, see, I just minimum. I mean, it's up to you, man, whether you give or not.
+
+[prakash senapati] 11:47:11
+It's all. Thank you so much, guys. Thank you so much, and that's it for… Today, and I want to say… goodbye to… 2025.
+
+[prakash senapati] 11:47:27
+And welcome to… 2026.
+
+[prakash senapati] 11:47:32
+And advancely, Happy New Year. To all of my, uh, fans and my students and my expertise, or.
+
+[prakash senapati] 11:47:43
+all over advancely Happy New Year is. Alright guys, goodbye 25, 20, 26, and new year.
+
+[prakash senapati] 11:47:50
+And make a goal, make a plan. And just make a career, make a list of dream. Without dream, nothing gonna be.
+
+[prakash senapati] 11:47:58
+workout. So, we'll catch you in 2026. with new planning, new things.
+
+[prakash senapati] 11:48:06
+All these things, guys. Alright, yup. Alright, good job. And…
+
+[prakash senapati] 11:48:14
+Last lecture, but she installed navigator, I have already installed.
+
+[prakash senapati] 11:48:18
+So tomorrow we'll speak. to install Python, yes, you have to install.
+
+[prakash senapati] 11:48:25
+it's been a new year, it's been a great learning experience with you. Yep, yep, because I know my students would be always special for me.
+
+[prakash senapati] 11:48:32
+And we'll enjoy with fun, we study, we do hard work, I'll give more work, more assignment, I'll grinding you.
+
+[prakash senapati] 11:48:38
+Normally, because then only you'll be at Joel. That's it for today. Thank you guys.
+
+[prakash senapati] 11:48:45
+To a limo code instead of writing alumna. Jayanth, what questions you asking? Where do you integrate, guys?
+
+[prakash senapati] 11:48:54
+Did you integrate somewhere, Jayun? You know what is meant by integrations, what is meant by writing code?
+
+[prakash senapati] 11:49:01
+API key, you copy and write a code there, you write a function, you've been Python code used.
+
+[prakash senapati] 11:49:07
+And you write a streamlet, and you combine all those things, right?
+
+[prakash senapati] 11:49:14
+Understood, buddy. Yeah.
+
+[prakash senapati] 11:49:22
+API key you fetch from Gemini API. So, without get APK, you can't work, no?
+
+[prakash senapati] 11:49:28
+Yes. Thank you. Alright, so… that's it for today.
+
+[prakash senapati] 11:49:37
+Oh, we'll see that, we'll see that. No. No, because… So, appreciate your comments and shares and likes to your friends
+
