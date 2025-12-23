@@ -70,8 +70,10 @@ lin_model_pred = lin_reg.predict([[6.5]])
 print(lin_model_pred)
 
 
-poly_model_pred = lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
-poly_model_pred
+poly_model_pred = lin_reg_2.predict(poly_reg.fit_transform([[6]]))
+print(poly_model_pred)
+
+
 
 
 
