@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv(r"C:\Users\santo\OneDrive\Desktop\Data science\Dec2025\emp_sal.csv")
+dataset = pd.read_csv(r"C:\Users\santo\OneDrive\Desktop\Data science\Dec2025\23rd Dec 2025\emp_sal.csv")
 
 x = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
