@@ -18,6 +18,29 @@ knn_reg.fit(x, y)
 y_pred_knn = knn_reg.predict([[6.5]])
 print(y_pred_knn)
 
+x_grid = np.arange(min(x), max(x), 0.01)
+x_grid = x_grid.reshape((len(x_grid), 1))
+
+y_pred_svr = regressor.predict(x_grid)
+y_pred_knn = knn_reg.predict(x_grid)
+
+
+plt.scatter(x, y, color='red', label='Actual Data')
+
+plt.plot(x_grid, y_pred_svr, color='blue', label='SVR (Polynomial)')
+
+plt.plot(x_grid, y_pred_knn, color='green', label='KNN Regression')
+
+plt.scatter(6.5, knn_reg.predict([[6.5]]), color='black', s=100, label='Prediction @ 6.5')
+
+plt.title('Salary Prediction using SVR & KNN')
+plt.xlabel('Level')
+plt.ylabel('Salary')
+plt.legend()
+plt.grid(True)
+
+plt.show()
+
 
 
 
