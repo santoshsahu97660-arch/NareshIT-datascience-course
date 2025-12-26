@@ -12,7 +12,7 @@ regressor = SVR(kernel= "poly", degree=4, gamma='auto', C=5.0)
 regressor.fit(x, y)
 
 from sklearn.neighbors import KNeighborsRegressor
-knn_reg = KNeighborsRegressor(n_neighbors=4, weights='distance', p=1)
+knn_reg = KNeighborsRegressor(n_neighbors=4, weights='distance', algorithm='brute', p=1)
 knn_reg.fit(x, y)
 
 y_pred_knn = knn_reg.predict([[6.5]])
@@ -41,6 +41,12 @@ plt.grid(True)
 
 plt.show()
 
+from sklearn.tree import DecisionTreeRegressor
+dt_reg = DecisionTreeRegressor(criterion="absolute_error", splitter="random", max_depth=3)
+dt_reg.fit(x,y)
+
+dt_pred = dt_reg.predict([[6.5]])
+print(dt_pred)
 
 
 
