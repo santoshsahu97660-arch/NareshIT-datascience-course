@@ -1,0 +1,22 @@
+artifact_path: file:c:/Users/santo/OneDrive/Desktop/Data science/Jan 2026/MLOPS/mlruns/2/models/m-0c4171f2ac90407c9496d8b6cc6849a7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-0c4171f2ac90407c9496d8b6cc6849a7
+model_size_bytes: 39764
+model_uuid: m-0c4171f2ac90407c9496d8b6cc6849a7
+prompts: null
+run_id: ca4e3cc3b72743dd8ac032484c36242a
+utc_time_created: '2026-01-23 05:12:49.934308'

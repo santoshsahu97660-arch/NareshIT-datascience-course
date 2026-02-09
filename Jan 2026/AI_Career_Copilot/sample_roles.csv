@@ -1,0 +1,11 @@
+role,skills,salary_min,salary_max,demand
+Data Analyst,"python,sql,excel,statistics,power bi,tableau",5,10,High
+Data Scientist,"python,ml,statistics,sql,deep learning",8,15,High
+Machine Learning Engineer,"python,ml,deep learning,model deployment,aws",10,20,High
+Business Analyst,"excel,sql,communication,power bi,stakeholder management",4,9,Medium
+Software Engineer,"java,python,data structures,algorithms,system design",6,14,High
+AI Engineer,"python,deep learning,nlp,computer vision,model deployment",12,22,High
+Data Engineer,"python,sql,spark,airflow,data pipelines",8,16,High
+Product Analyst,"sql,excel,product analytics,statistics,communication",6,12,Medium
+Cloud Engineer,"aws,azure,linux,networking,python",7,15,High
+DevOps Engineer,"linux,docker,kubernetes,ci cd,aws",8,18,High

@@ -1,0 +1,13 @@
+dlenv/
+venv/
+__pycache__/
+*.pyc
+*.pyd
+*.dll
+*.exe
+*.h5
+*.pt
+*.pth
+.vscode/
+
+

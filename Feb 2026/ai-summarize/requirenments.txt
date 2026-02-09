@@ -1,0 +1,10 @@
+streamlit
+torch
+transformers==4.41.2
+tokenizers==0.19.1
+sentencepiece
+PyPDF2
+speechrecognition
+pydub
+gtts
+langdetect
